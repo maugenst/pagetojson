@@ -1,6 +1,6 @@
 {
   "name": "pagetojson",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Convert HTML page parts into JSON objects",
   "main": "lib/index.js",
   "scripts": {
@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/maugenst/pagetojson#readme",
   "dependencies": {
-    "request": "^2.87.0"
+    "request": "^2.87.0",
+    "tabletojson": "*",
+    "listtojson": "*"
   },
   "devDependencies": {
     "coveralls": "^3.0.1",

@@ -12,6 +12,8 @@ When implementing a specific tag in a separate project one can decide to either 
 blown shell or the little project just needed for his use case.
 
 So ... it basically converts just parts that are known yet into an Object Array of JSON objects.
+This list will grow over the time, so feel free to attend here and add your own 'tagname'tojson which 
+will be added to the dependencies list.
 
 ## Installation
 
@@ -25,7 +27,7 @@ npm install pagetojson
 const pagetojson = require('../lib/pagetojson');
 
 const converted = pagetojson.convert('HTML-STRING', {
-    tags: ['table', 'ol', 'ul']
+    tags: ['table', 'list']
 })
 
 console.log(converted)
@@ -33,18 +35,13 @@ console.log(converted)
 // Result:
 {
     table: [
-        0: [...]
-        1: [...]
+        0: [...],
+        1: [...],
         2: [...]
     ],
-     ol: [
-        0: [...]
-        1: [...]
-        2: [...]
-    ],
-    ul: [
-         0: [...]
-         1: [...]
+     list: [
+         0: [...],
+         1: [...],
          2: [...]
     ]
 }
