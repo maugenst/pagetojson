@@ -15,6 +15,9 @@ node_modules
 npm-debug.log
 /.DS_Store
 
+# coverage
+coverage
+
 # Local Configuration
 config/local.yaml
 config/local*.yaml
