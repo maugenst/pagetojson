@@ -1,6 +1,6 @@
 {
   "name": "pagetojson",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Convert HTML page parts into JSON objects",
   "main": "dist/index.js",
   "scripts": {
