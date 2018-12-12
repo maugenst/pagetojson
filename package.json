@@ -23,9 +23,9 @@
   },
   "homepage": "https://github.com/maugenst/pagetojson#readme",
   "dependencies": {
-    "listtojson": "*",
+    "listtojson": "0.0.4",
     "request": "^2.88.0",
-    "tabletojson": "*"
+    "tabletojson": "^1.0.1"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
