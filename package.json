@@ -25,7 +25,7 @@
   "dependencies": {
     "listtojson": "*",
     "request": "^2.88.0",
-    "tabletojson": "*"
+    "tabletojson": "1.1.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
